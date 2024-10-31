@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blink Vision</title>
+  <link rel="icon" type="image/png" href="img/logo_Blink_Vision.png" sizes="190x154">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="img/logo_Blink_Vision.png" alt="Logo do Manual" id="logo">
+    <h1>Manual Blink Vision - Significado dos Sinais Sonoros</h1>
+    <p>Clique em um botão para ouvir uma frequência e a instrução correspondente.</p>
+  </header>
+
+  <main>
+    <section class="buttons">
+      <button onclick="playSoundAndInstruction(440, 'Obstáculo identificado no canto inferior direito')" aria-label="Ouvir 440 Hz - Obstáculo identificado no canto inferior direito">
+        440 Hz - Obstáculo identificado no canto inferior direito
+      </button>
+      <button onclick="playSoundAndInstruction(494, 'Obstáculo identificado no lado direito central')" aria-label="Ouvir 494 Hz - Obstáculo identificado no lado direito central">
+        494 Hz - Obstáculo identificado no lado direito central
+      </button>
+      <button onclick="playSoundAndInstruction(554, 'Obstáculo identificado no canto superior direito')" aria-label="Ouvir 554 Hz - Obstáculo identificado no canto superior direito">
+        554 Hz - Obstáculo identificado no canto superior direito
+      </button>
+      <button onclick="playSoundAndInstruction(622, 'Obstáculo identificado no centro inferior')" aria-label="Ouvir 622 Hz - Obstáculo identificado no centro inferior">
+        622 Hz - Obstáculo identificado no centro inferior
+      </button>
+      <button onclick="playSoundAndInstruction(698, 'Obstáculo identificado no centro')" aria-label="Ouvir 698 Hz - Obstáculo identificado no centro">
+        698 Hz - Obstáculo identificado no centro
+      </button>
+      <button onclick="playSoundAndInstruction(784, 'Obstáculo identificado no centro superior')" aria-label="Ouvir 784 Hz - Obstáculo identificado no centro superior">
+        784 Hz - Obstáculo identificado no centro superior
+      </button>
+      <button onclick="playSoundAndInstruction(880, 'Obstáculo identificado no canto inferior esquerdo')" aria-label="Ouvir 880 Hz - Obstáculo identificado no canto inferior esquerdo">
+        880 Hz - Obstáculo identificado no canto inferior esquerdo
+      </button>
+      <button onclick="playSoundAndInstruction(988, 'Obstáculo identificado no lado esquerdo central')" aria-label="Ouvir 988 Hz - Obstáculo identificado no lado esquerdo central">
+        988 Hz - Obstáculo identificado no lado esquerdo central
+      </button>
+      <button onclick="playSoundAndInstruction(880, 'Obstáculo identificado no canto superior esquerdo')" aria-label="Ouvir 880 Hz - Obstáculo identificado no canto superior esquerdo">
+        880 Hz - Obstáculo identificado no canto superior esquerdo
+      </button>
+      <button onclick="playSoundAndInstruction([392, 440, 468, 589], 'Conectando à Internet')" aria-label="Ouvir sinais - Conectando à Internet">
+        392-440-468-589 Hz - Conectando à Internet
+      </button>      
+      <button onclick="playSoundAndInstruction(600, 'Conectou-se à Internet')" aria-label="Ouvir 600 Hz - Conectou-se à Internet">
+        600 Hz - Conectou-se à Internet
+      </button>
+      <button onclick="playSoundAndInstruction(370, 'Desconectou da Internet')" aria-label="Ouvir 370 Hz - Desconectou da Internet">
+        370 Hz - Desconectou da Internet
+      </button>
+      <button onclick="playSoundAndInstruction(349, 'Dispositivo ligou')" aria-label="Ouvir 349 Hz - Dispositivo ligou">
+        349 Hz - Dispositivo ligou
+      </button>
+      <button onclick="playSoundAndInstruction(1109, 'Dispositivo desligado')" aria-label="Ouvir 1109 Hz - Dispositivo desligado">
+        1109 Hz - Dispositivo desligado
+      </button>
+      <button onclick="playSoundAndInstruction(622, 'Dispositivo acabando a bateria')" aria-label="Ouvir 622 Hz - Dispositivo acabando a bateria">
+        622 Hz - Dispositivo acabando a bateria
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Blink Vision</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

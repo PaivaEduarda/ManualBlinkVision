@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 1em;
+  }
+  
+  header {
+    margin-top: 2em;
+    text-align: center;
+  }
+  
+  #logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 0.5em;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+    color: #2a7a2a;
+    font-weight: bold;
+  }
+  
+  header p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 2em;
+  }
+  
+  main {
+    max-width: 600px;
+    width: 100%;
+    padding: 1.5em;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  button {
+    background-color: #e0f2e0;
+    color: #2a7a2a;
+    border: 2px solid #2a7a2a;
+    padding: 0.8em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2a7a2a;
+    color: #ffffff;
+  }
+  
+  button:focus {
+    outline: 3px solid #2a7a2a;
+  }
+  
+  footer {
+    margin-top: auto;
+    padding: 1em 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.6em;
+    }
+  
+    button {
+      font-size: 0.9em;
+      padding: 0.7em;
+    }
+  }  
